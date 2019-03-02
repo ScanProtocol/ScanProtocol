@@ -9,9 +9,9 @@
   protocol: 'ScanProtocol', 
   action: 'transfer',
   address: 'wangruixiwww',  // 转账目标地址
-  contract: 'eosio.token', 
-  symbol: 'EOS',
-  precision: 4,
+  contract: 'eosio.token',  // 可选，可以指定token，也可以由钱包扫码后自行选择转帐token，需要与字段symbol、precision保持匹配
+  symbol: 'EOS',  // 可选，可以指定token，也可以由钱包扫码后自行选择转帐token，需要与字段contract、precision保持匹配
+  precision: 4,  // 可选，可以指定token，也可以由钱包扫码后自行选择转帐token，需要与字段contract、symbol保持匹配
   blockchain: 'EOS', // BTC, ETH, EOS, BOS, MEETONE 
   amount: '2.4', // 可选  真实转账数量
   memo: 'something to say', // 可选 备注信息
