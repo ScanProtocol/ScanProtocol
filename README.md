@@ -6,10 +6,10 @@
 
 ```javascript
 {
-  protocol: '一个固定的响亮的名字', 
+  protocol: 'ScanProtocol', 
   action: 'transfer',
-  address: 'wangruixiwww', 
-  contract: 'eosio.token',
+  address: 'wangruixiwww',  // 转账目标地址
+  contract: 'eosio.token', 
   symbol: 'EOS',
   precision: 4,
   blockchain: 'EOS', // BTC, ETH, EOS, BOS, MEETONE 
@@ -23,9 +23,9 @@
 
 ```javascript
 {
-  protocol: '一个固定的响亮的名字', 
+  protocol: 'ScanProtocol', 
   action: 'transfer',
-  address: '0x4e9ce36e442e55ecd9025b9a6e0d88485d628a67', 
+  address: '0x4e9ce36e442e55ecd9025b9a6e0d88485d628a67',  // 转账目标地址
   contract: '0xB8c77482e45F1F44dE1745F52C74426C631bDD52', // ETH不填或为空
   symbol: 'BNB',
   decimal: 18,
@@ -41,7 +41,7 @@
 - 后续补充的其他公链,尽量保持一致性
 ```javascript
 {
-  protocol: '一个固定的响亮的名字', 
+  protocol: 'ScanProtocol', 
   action: 'transfer',
   address: '', 
   contract: '',
