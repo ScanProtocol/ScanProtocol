@@ -13,7 +13,7 @@
     symbol: 'EOS',  // 토큰을 선택 혹은 지정하거나 지갑의 코드를 스캔하여 전송 토큰을 선택할 수 있습니다. 필드contract와 precision을 일치시켜야합니다.
     precision: 4,  // 토큰을 선택 혹은 지정하거나 지갑의 코드를 스캔하여 전송 토큰을 선택할 수 있습니다. 필드 contract와 symbol를 일치시켜야합니다.
 
-    blockchain: 'EOS', // BTC, ETH, EOS, BOS, MEETONE 
+    blockchain: 'EOS', // BTC, ETH, EOS, BOS, MEET.ONE 
     amount: '2.4', // 진실한 전송 수 선택 가능
     memo: 'something to say', // 메모 선택 가능
     chainid:  'd5a3d18fbb3c084e3b1f3fa98c21014b5f3db536cc15d08f9f6479517c6a3d86' // 선택 가능

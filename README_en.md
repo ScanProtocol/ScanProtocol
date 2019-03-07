@@ -12,7 +12,7 @@ A universal scanning code transfer protocol developed by several wallet teams, a
   contract: 'eosio.token',  // Optional, you can specify the token, or you can choose the transfer token by scanning the code with the wallet which need to match the fields symbol and precision.
   symbol: 'EOS',  // Optional, you can specify the token, or you can choose the transfer token by scanning the code with the wallet which need to match the fields symbol and precision.
   precision: 4,  // Optional, you can specify the token, or you can choose the transfer token by scanning the code with the wallet which need to match the fields symbol and precision.
-  blockchain: 'EOS', // BTC, ETH, EOS, BOS, MEETONE 
+  blockchain: 'EOS', // BTC, ETH, EOS, BOS, MEET.ONE 
   amount: '2.4', // Optional  Actual amount of transfer tokens
   memo: 'something to say', // Optional Memo
   chainid: 'd5a3d18fbb3c084e3b1f3fa98c21014b5f3db536cc15d08f9f6479517c6a3d86' // Optional 
