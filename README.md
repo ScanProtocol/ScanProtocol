@@ -12,7 +12,7 @@
   contract: 'eosio.token',  // 可选，可以指定token，也可以由钱包扫码后自行选择转帐token，需要与字段symbol、precision保持匹配
   symbol: 'EOS',  // 可选，可以指定token，也可以由钱包扫码后自行选择转帐token，需要与字段contract、precision保持匹配
   precision: 4,  // 可选，可以指定token，也可以由钱包扫码后自行选择转帐token，需要与字段contract、symbol保持匹配
-  blockchain: 'EOS', // BTC, ETH, EOS, BOS, MEETONE 
+  blockchain: 'EOS', // BTC, ETH, EOS, BOS, MEET.ONE 
   amount: '2.4', // 可选  真实转账数量
   memo: 'something to say', // 可选 备注信息
   chainid: 'd5a3d18fbb3c084e3b1f3fa98c21014b5f3db536cc15d08f9f6479517c6a3d86' // 可选 
