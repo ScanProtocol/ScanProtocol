@@ -36,9 +36,6 @@
 }
 ```
 
-
-
-
 ## 일반적으로 쓰이는 필드 
  • 후속 보충된 기타 퍼블릭 체인, 최대한 일관성을 유지
 ```javascript
@@ -50,5 +47,19 @@
     symbol: '',
     blockchain: '',
     amount: '' // 진실한 전송 수 선택 가능
+}
+```
+
+## 오프라인 지불
+```javascript
+{
+  "protocol":"pay",
+  "name":"西贝莜面村",
+  "chain":"BOS"
+  "contract":"eosio.token",  //선택 과목
+  "address":"accountuser",
+  "symbol":"BOS",
+  "memo":"",    //선택 과목
+  "amount":"10"  //선택 과목   
 }
 ```
