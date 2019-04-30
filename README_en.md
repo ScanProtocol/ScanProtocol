@@ -34,9 +34,6 @@ A universal scanning code transfer protocol developed by several wallet teams, a
 }
 ```
 
-
-
-
 ## Generic field
 - Please keep the consistency of other public chains that added later
 ```javascript
@@ -48,5 +45,20 @@ A universal scanning code transfer protocol developed by several wallet teams, a
   symbol: '',
   blockchain: '',
   amount: '' // Optional  Actual amount of transfer tokens
+}
+```
+
+## Offline payment
+
+```javascript
+{
+  "protocol":"pay",
+  "name":"西贝莜面村",
+  "chain":"BOS"
+  "contract":"eosio.token",  //optional
+  "address":"accountuser",
+  "symbol":"BOS",
+  "memo":"",    //optional
+  "amount":"10"  //optional   
 }
 ```
