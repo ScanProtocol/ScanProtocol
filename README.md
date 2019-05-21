@@ -55,7 +55,7 @@
 {
   "protocol":"pay",
   "name":"西贝莜面村",
-  "chain":"BOS"
+  "blockchain":"BOS"
   "contract":"eosio.token",  //可选
   "address":"accountuser",
   "symbol":"BOS",
